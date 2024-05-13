@@ -5,10 +5,15 @@ const MyFirst = () => {
 
     return(
         //html
-        <>
+        <> 
+        {/* i dont know what line 8 is */}
+        {/* calling variables in jsx */}
          <p>Welcome to my first component</p>
         <p>{name}</p>
         <p>{x}</p>
+
+        {/* events in jsx */}
+        <button onClick={()=>alert("you clicked button")}>Click</button>
         </>
 
     );
