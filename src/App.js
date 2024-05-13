@@ -3,6 +3,7 @@
 import logo from './logo.svg';
 import './App.css';
 import MyFirst from "./components/MyFirst";
+import Counter from "./components/Counter";
 
 // 2- function
 function App() { // function name must be exactly like file name
@@ -22,6 +23,7 @@ function App() { // function name must be exactly like file name
         <MyFirst></MyFirst>
         {/* or like this */}
         {/* <MyFirst/> */}
+        <Counter/>
         <a
           className="App-link"
           href="https://reactjs.org"
