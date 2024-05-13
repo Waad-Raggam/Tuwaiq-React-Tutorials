@@ -2,7 +2,7 @@
 // 1- imports
 import logo from './logo.svg';
 import './App.css';
-
+import MyFirst from "./components/MyFirst";
 
 // 2- function
 function App() { // function name must be exactly like file name
@@ -19,6 +19,9 @@ function App() { // function name must be exactly like file name
         <p>
           Edit {x} <code>src/App.js</code> and save to reload.
         </p>
+        <MyFirst></MyFirst>
+        {/* or like this */}
+        {/* <MyFirst/> */}
         <a
           className="App-link"
           href="https://reactjs.org"
