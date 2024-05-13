@@ -3,6 +3,10 @@ const MyFirst = () => {
     const name = "Welcome to tuwaiq";
     const x = 10.5
 
+    // alternative to writing events here on outside
+    const ShowMessage=()=>{
+        alert("you clicked button");
+    }
     return(
         //html
         <> 
@@ -13,7 +17,11 @@ const MyFirst = () => {
         <p>{x}</p>
 
         {/* events in jsx */}
-        <button onClick={()=>alert("you clicked button")}>Click</button>
+        {/* <button onClick={()=>alert("you clicked button")}>Click</button> */}
+
+        {/* instead of writing function inside jsx like line 20, declare function ShowMessage and use it as follows */}
+
+        <button onClick={ShowMessage}>Click</button>
         </>
 
     );
