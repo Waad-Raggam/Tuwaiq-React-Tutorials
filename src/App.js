@@ -1,10 +1,17 @@
+// default template of react file
+// 1- imports
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+
+// 2- function
+function App() { // function name must be exactly like file name
   // functional component
+  // js code
   var x = 100;
+  // 3- return html
   return (
+    // html code
     <div className="App">
       {x}
       <header className="App-header">
@@ -24,5 +31,7 @@ function App() {
     </div>
   );
 }
+
+// 4- exports
 
 export default App;
