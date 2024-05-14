@@ -4,6 +4,8 @@ import logo from './logo.svg';
 import './App.css';
 import MyFirst from "./components/MyFirst";
 import Counter from "./components/Counter";
+import SquareCalculator from "./components/SquareCalculator";
+import SumCalculator from "./components/SumCalculator";
 
 // 2- function
 function App() { // function name must be exactly like file name
@@ -14,7 +16,7 @@ function App() { // function name must be exactly like file name
   return (
     // html code
     <div className="App">
-      {x}
+      {/* {x}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -23,16 +25,22 @@ function App() { // function name must be exactly like file name
         <MyFirst></MyFirst>
         {/* or like this */}
         {/* <MyFirst/> */}
-        <Counter/>
-        <a
+        <br/>
+        <br/>
+        <br/>
+        <br/> 
+        {/* <Counter/> */}
+        <SquareCalculator/>
+        {/* <SumCalculator/> */}
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
-      </header>
+        </a> */}
+      {/* </header> */}
     </div>
   );
 }
