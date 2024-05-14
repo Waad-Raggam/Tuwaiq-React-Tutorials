@@ -30,8 +30,8 @@ function App() { // function name must be exactly like file name
         <br/>
         <br/> 
         {/* <Counter/> */}
-        <SquareCalculator/>
-        {/* <SumCalculator/> */}
+        {/* <SquareCalculator/> */}
+        <SumCalculator/>
         {/* <a
           className="App-link"
           href="https://reactjs.org"
