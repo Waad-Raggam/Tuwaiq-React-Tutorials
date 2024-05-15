@@ -6,6 +6,7 @@ import MyFirst from "./components/MyFirst";
 import Counter from "./components/Counter";
 import SquareCalculator from "./components/SquareCalculator";
 import SumCalculator from "./components/SumCalculator";
+import Menu from "./components/Menu";
 
 // 2- function
 function App() { // function name must be exactly like file name
@@ -31,7 +32,8 @@ function App() { // function name must be exactly like file name
         <br/> 
         {/* <Counter/> */}
         {/* <SquareCalculator/> */}
-        <SumCalculator/>
+        {/* <SumCalculator/> */}
+        <Menu/>
         {/* <a
           className="App-link"
           href="https://reactjs.org"
