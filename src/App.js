@@ -7,6 +7,7 @@ import Counter from "./components/Counter";
 import SquareCalculator from "./components/SquareCalculator";
 import SumCalculator from "./components/SumCalculator";
 import Menu from "./components/Menu";
+import UserList from "./components/UserList";
 
 // 2- function
 function App() { // function name must be exactly like file name
@@ -33,7 +34,26 @@ function App() { // function name must be exactly like file name
         {/* <Counter/> */}
         {/* <SquareCalculator/> */}
         {/* <SumCalculator/> */}
-        <Menu/>
+        {/* <div className='row d-flex justify-content-center mt-5'>
+          <div className='col-sm-6 text-center'>
+            <div className='card'>
+              <div className='card-body bg-dark  text-white'>
+                <div className='d-flex justify-content-between'>
+                  {/* something here */}
+                {/* </div>
+                <div className='row'>
+                  <div className='col'>الصنف</div>
+                  <div className='col'>اسم الصنف</div>
+                  <div className='col'>سعر الصنف</div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+        <Menu/> */} 
+        {/* </div> */}
+<UserList/>
         {/* <a
           className="App-link"
           href="https://reactjs.org"

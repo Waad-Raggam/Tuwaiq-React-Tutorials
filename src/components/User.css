@@ -1,0 +1,6 @@
+.user-name {
+    display: inline-block;
+    width: 150px; /* Adjust this value to align the names as desired */
+    text-align: center;
+}
+
