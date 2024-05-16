@@ -2,9 +2,9 @@
 
     const UserList = () =>{
         const usersList = [
-            {name: 'John', age: 30 },
-            {name: 'Alice', age: 25 },
-            {name: 'Bob', age: 35 }
+            {name: 'John', age: 30, dept:'CS', val:'0' },
+            {name: 'Alice', age: 25, dept:'CS', val:'0'  },
+            {name: 'Bob', age: 35, dept:'CS', val:'0'  }
         ]
 
         return(
